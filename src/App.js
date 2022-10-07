@@ -25,9 +25,6 @@ class App extends Component {
               this.setState(
                 () => {
                   return { name: { firstName: 'Andrei', lastName: 'Neaogie' } };
-                },
-                () => {
-                  console.log(this.state);
                 }
               );
               // console.log(this.state);
